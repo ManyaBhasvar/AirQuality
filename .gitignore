@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+reports/
+output/
+tmp/
+*.pdf
+*.docx
+*.png
+*.log
+
+# Keep the CSV data files because they are the application's local data store.
+# Generated chart images are excluded through reports/ and *.png above.
